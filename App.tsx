@@ -55,13 +55,13 @@ const services: Service[] = [
 const pricing: PricingTier[] = [
   {
     name: 'Standard',
-    price: '$1,500',
+    price: '₱xxxx',
     description: 'Perfect for established businesses needing a professional refresh.',
     features: ['Bespoke Design (Next.js or PHP)', 'Deployment & Domain Setup', 'Base SEO Configuration', 'Training Session', '30-Day Launch Support'],
   },
   {
     name: 'Growth',
-    price: '$4,500',
+    price: '₱xxxx',
     description: 'Full system integration with smart AI features.',
     features: ['Everything in Standard', 'Custom AI Chatbot Integration', 'Laravel Backend / System Setup', 'Advanced Analytics Dashboard', '3 Months Concierge Support'],
     highlighted: true
@@ -70,15 +70,15 @@ const pricing: PricingTier[] = [
     name: 'Enterprise',
     price: 'Custom',
     description: 'Deep-tech solutions for complex business challenges.',
-    features: ['Full Stack Development', 'Custom LLM Implementation', 'Legacy System Integration', 'Direct WhatsApp Line to Dory', 'Dedicated Maintenance Slot'],
+    features: ['Full Stack Development', 'Custom LLM Implementation', 'Legacy System Integration', 'Dedicated Maintenance Slot'],
   }
 ];
 
 const projects = [
-  { title: 'Velocify', category: 'Laravel E-commerce', img: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80' },
-  { title: 'Nexus Core', category: 'SaaS Dashboard', img: 'https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&w=800&q=80' },
-  { title: 'Orbital', category: 'Portfolio', img: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80' },
-  { title: 'Slate AI', category: 'AI WebApp', img: 'https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=800&q=80' },
+  { title: 'x', category: 'Custom Portfolio', img: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80' },
+  { title: 'x', category: 'SaaS Dashboard', img: 'https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&w=800&q=80' },
+  { title: 'x', category: 'Appointment System', img: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80' },
+  { title: 'x', category: 'AI WebApp', img: 'https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=800&q=80' },
 ];
 
 const faqs = [
@@ -88,7 +88,7 @@ const faqs = [
   },
   { 
     q: "Do you offer AI and Chatbot services?", 
-    a: "Yes! AI is a huge part of DoryTech. I can build custom chatbots integrated with Gemini or OpenAI, automate your customer support, or build smart tools that analyze your business data using Large Language Models." 
+    a: "Yes! AI is a huge part of DoryTech. I can build custom chatbots integrated with an AI model, automate your customer support, or build smart tools that analyze your business data using Large Language Models." 
   },
   { 
     q: "What programming languages do you use?", 
@@ -127,7 +127,7 @@ const App: React.FC = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
               </span>
-              <span>Next.js • Laravel • AI Integration</span>
+              <span>Next.js • AI Integration</span>
             </div>
             
             <h1 className="text-7xl md:text-[10rem] font-black text-slate-900 leading-[0.85] tracking-tighter animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-150">
@@ -400,7 +400,7 @@ const App: React.FC = () => {
                     </div>
                     <div>
                       <p className="text-xs font-black uppercase tracking-[0.2em] text-white/40">Direct Email</p>
-                      <p className="text-xl font-bold">dory@dorytech.com</p>
+                      <p className="text-xl font-bold">francisvonjazelofranco@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-6">
@@ -409,7 +409,7 @@ const App: React.FC = () => {
                     </div>
                     <div>
                       <p className="text-xs font-black uppercase tracking-[0.2em] text-white/40">Fast Lane</p>
-                      <p className="text-xl font-bold">Responds within 4 hours</p>
+                      <p className="text-xl font-bold">Responds within the day</p>
                     </div>
                   </div>
                 </div>
@@ -446,7 +446,6 @@ const App: React.FC = () => {
             <div className="flex space-x-12 text-sm font-black uppercase tracking-widest text-slate-400">
               <a href="#" className="hover:text-slate-900 transition-colors">Twitter</a>
               <a href="#" className="hover:text-slate-900 transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-slate-900 transition-colors">Behance</a>
             </div>
             
             <p className="text-xs font-bold text-slate-400 uppercase tracking-widest italic">
